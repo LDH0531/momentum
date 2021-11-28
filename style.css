@@ -1,0 +1,55 @@
+.hidden{
+    display: none;
+}
+
+.background-container {
+    position: relative;
+    background-size: contain;
+}
+
+.background-container #greeting {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 8.0rem;
+    position: fixed;
+    top: 40px;
+}
+
+.background-container #login-form {
+    position: fixed;
+    margin-left: 4.0rem;
+    top: 40px;
+}
+
+.background-container #clock {
+    position: fixed;
+    font-weight: bold;
+    font-size: 3.0rem;
+    top: 160px;
+    margin-left: 4.0rem;
+}
+
+.background-container #weather {
+    position: fixed;
+    font-weight: bold;
+    font-size: 3.0rem;
+    top: 280px;
+    margin-left: 4.0rem;
+}
+
+.background-container #todo-form {
+    position: fixed;
+    top: 400px;
+    margin-left: 4.0rem;
+}
+
+.background-container #todo-list {
+    font-size: 30px;
+    position: fixed;
+    top: 480px;
+    margin-left: 4.0rem;
+}
+
+
+
